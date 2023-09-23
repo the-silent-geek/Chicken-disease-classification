@@ -18,11 +18,6 @@
 
 ## Save pass:
 
-## Run from terminal:
-
-docker build -t chickenapp.azurecr.io/chicken:latest .
-
-docker login # AZURE-CICD-Deployment-with-Github-Actions
 
 ## Run from terminal:
 
