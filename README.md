@@ -31,7 +31,7 @@ docker login # AZURE-CICD-Deployment-with-Github-Actions
 
 docker build -t chickenapp.azurecr.io/chicken:latest .
 
-docker login chickenapp.azurecr.io
+docker login chickenapp.azurecr.io/chicken
 
 docker push chickenapp.azurecr.io/chicken:latest
 
