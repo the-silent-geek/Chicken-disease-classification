@@ -20,17 +20,7 @@
 ## Run from terminal:
 
 docker build -t chickenapp.azurecr.io/chicken:latest .
-docker login # AZURE-CICD-Deployment-with-Github-Actions
-
-## Run from terminal:
-
-docker build -t chickenapp.azurecr.io/chicken:latest .
-
-docker login chickenapp.azurecr.io
-=======
 docker login chickenapp.azurecr.io/chicken
-
-
 docker push chickenapp.azurecr.io/chicken:latest
 
 
@@ -40,14 +30,3 @@ docker push chickenapp.azurecr.io/chicken:latest
 2. Push the Docker image to Container Registry
 3. Launch the Web App Server in Azure 
 4. Pull the Docker image from the container registry to Web App server and run 
-
-docker push chickenapp.azurecr.io/chicken:latest
-
-
-## Deployment Steps:
-
-1. Build the Docker image of the Source Code
-2. Push the Docker image to Container Registry
-3. Launch the Web App Server in Azure 
-4. Pull the Docker image from the container registry to Web App server and run 
-
